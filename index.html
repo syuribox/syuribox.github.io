@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>syuribox</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #eaeaea;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 300;
+      letter-spacing: 0.15em;
+      margin-bottom: 0.4em;
+      color: #fff;
+      text-shadow: 0 0 20px rgba(100, 180, 255, 0.4);
+    }
+    .subtitle {
+      font-size: 0.95rem;
+      color: #a0aec0;
+      margin-bottom: 3.5em;
+      letter-spacing: 0.08em;
+    }
+    nav {
+      display: flex;
+      flex-direction: column;
+      gap: 1.4em;
+      width: 100%;
+      max-width: 420px;
+    }
+    a {
+      display: block;
+      text-align: center;
+      padding: 1.2em 1.5em;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 12px;
+      color: #e2e8f0;
+      text-decoration: none;
+      letter-spacing: 0.06em;
+      transition: all 0.25s ease;
+      backdrop-filter: blur(8px);
+    }
+    a:hover {
+      background: rgba(100, 180, 255, 0.15);
+      border-color: rgba(100, 180, 255, 0.4);
+      color: #fff;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    }
+    a .title {
+      display: block;
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin-bottom: 0.45em;
+    }
+    a .desc {
+      display: block;
+      font-size: 0.82rem;
+      color: #a0aec0;
+      line-height: 1.55;
+      font-weight: 400;
+      letter-spacing: 0.02em;
+    }
+    a:hover .desc {
+      color: #cbd5e0;
+    }
+    footer {
+      margin-top: 4em;
+      font-size: 0.75rem;
+      color: #718096;
+      letter-spacing: 0.05em;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align: center;">syuribox</h1>
+  <p class="subtitle" style="text-align: center;">GitHub Pages</p>
+
+  <nav>
+    <a href="https://syuribox.github.io/kousei/">
+      <span class="title" style="font-weight: 500;">kousei</span>
+      <span class="desc" style="font-weight: 400;">ラノベ・小説向けの文書校正ツール集。誤字修正、ひらがなチェック、校正補助など、執筆をサポートする各種ツールをブラウザ上で利用できます。</span>
+    </a>
+    <a href="https://syuribox.github.io/airiscard/">
+      <span class="title" style="font-weight: 500;">airiscard</span>
+      <span class="desc" style="font-weight: 400;">エアイズ王国を舞台にしたカードバトルのフリーゲーム（α版）。ブラウザで手軽に遊べるファンタジーカードゲームです。OP動画なども公開中。</span>
+    </a>
+    <a href="https://syuribox.github.io/genshoku/">
+      <span class="title" style="font-weight: 500;">genshoku</span>
+      <span class="desc" style="font-weight: 400;">画像の色深度を減色するWebツール。24bitフルカラーを16bitなどに量子化し、イラストやゲームスクショのPNGファイルサイズ削減に役立ちます。</span>
+    </a>
+  </nav>
+
+  <footer style="text-align: center;">
+    © syuribox
+  </footer>
+</body>
+</html>
